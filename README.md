@@ -1,6 +1,8 @@
 # crypto-TON-wallet-private-key-search
 Код для поиска кошельков с балансом блокчейна TON по приватному ключу
 
+![Работа кода](https://github.com/Pamblus/crypto-TON-wallet-private-key-search/blob/main/pamblus-ton-key-wallet.jpg?raw=true)
+
 ## Запуск
 
 ts-node find.ts
@@ -17,7 +19,7 @@ Terms of Use: https://toncenter.com/toncenter_gtc.pdf
 Настройки скрипта: config.json
 
 - randomBytes: true/false - независимо что указано в seed.txt будет генерировать рандомный hex ключ.
-- sameSymbols: true/false 
+- sameSymbols: true/false - укоротить адреса в консоли в виде точек.
 - wordToBytes: true/false - добавьте в массив "word" слова чтобы конвертировать их в hex.
 - parallelProcesses: 5 - введите число чтобы указать кол-во потоков, одновременных запросов баланса кошелька.
 - apiKeys:[] - массив toncenter api ключей, чем больше тем лучше.
