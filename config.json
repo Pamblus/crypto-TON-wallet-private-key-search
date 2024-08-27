@@ -1,0 +1,37 @@
+{
+  "randomBytes": true,
+  "sameSymbols": false,
+  "wordToBytes": false,
+  "word": "",
+  "parallelProcesses": 5,
+  "apiKeys": [
+    "cf29c6480217595ee17158db12a72e3f70b36377ff2f79b724876215000000000"
+  
+  ],
+  "threadsPerKey": 4,
+  "saveHashes": true,
+  "display": {
+    "hash": true,
+    "balance": true,
+    "address": true,
+    "publicKey": false,
+    "fullData": false
+  },
+  "saveData": {
+    "saveData": false,
+    "saveHash": true,
+    "saveBalance": true,
+    "saveAddress": true,
+    "savePublicKey": true
+  },
+  "saveDataAddress": {
+    "saveDataAddress": false,
+    "startsearchend": 1,
+    "words": [
+        "beautiful", "moonlight", "sunset", "serenity", "tranquil",
+        "blissful", "harmony", "radiant", "ethereal", "graceful",
+        "idyllic", "luminous", "mystical", "paradise", "quaint"
+    ]
+  },
+  "showGenerationCount": true
+}
